@@ -28,7 +28,7 @@ const client = new Client({
 });
 
 // --- 🛠️ CONFIGURAÇÃO DOS TEUS IDS ---
-const TOKEN = 'MTUwNzQ3MDMyMTAzNTI1MTc5Mg.GvgTtF.oY5WaC97ClUXXT2sI6IijvfbgGE9D9-SmWDi8g';
+const TOKEN = process.env.DISCORD_TOKEN;
 const ID_CARGO_STAFF = '1499088671025004544'; 
 const ID_CANAL_LOGS = '1499089270021820476';   
 
